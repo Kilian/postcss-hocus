@@ -1,0 +1,31 @@
+{
+  "name": "postcss-hocus",
+  "version": "1.0.0",
+  "description": "postcss plugin that lets you write :hocus instead of :hover, :focus",
+  "main": "index.js",
+  "scripts": {
+    "test": "postcss-tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kilian/postcss-hocus"
+  },
+  "keywords": [
+    "css",
+    "focus",
+    "hover",
+    "active",
+    "pseudoselectors",
+    "postcss"
+  ],
+  "author": "Kilian Valkhof",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^5.2.11",
+    "postcss-tape": "^1.3.0"
+  },
+  "dependencies": {
+    "postcss": "^5.2.11",
+    "postcss-selector-parser": "^2.2.2"
+  }
+}
